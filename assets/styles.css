@@ -1,0 +1,43 @@
+body {
+    background-image: url(/assets/images/bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image__slideshow{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px auto;
+    width: 1300px;
+}
+
+.mainImageBox{
+    width: 1000px;
+    margin: auto;
+    padding: 0;
+}
+
+.imageBox{
+    width: 300px;
+    overflow: hidden;
+}
+
+.imageBox .imageBox__img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
+.image{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.imageBox__img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
